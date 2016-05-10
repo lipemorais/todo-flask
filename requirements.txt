@@ -1,0 +1,9 @@
+Flask >= 0.10 #web framework
+psycopg2 >= 2.6 #postgresql driver
+Flask-SQLAlchemy >= 2.0 #ORM mapper
+Flask-Login
+PassLib
+WTForms
+yoyo-migrations == 4.2.5 #database migrations...MUST BE EXACTLY 4.2.5...5.0.1 breaks command-line interface
+
+

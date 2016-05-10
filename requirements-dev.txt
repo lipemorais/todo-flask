@@ -1,0 +1,11 @@
+-r requirements.txt
+# dev tools
+ipdb
+Flask-Script
+
+#testing
+nose >= 1.3.2 #unit tests
+mock >= 1.0.1
+splinter >= 0.7 #functional tests
+PyHamcrest >= 1.8.5 #readable assertions/matchers
+Flask-Testing
